@@ -235,7 +235,7 @@ img {
   top: -50px;
   width: 40px;
   height: 40px;
-  /*background-image: url('/assets/img/leaf.PNG'); /* Or use a Unicode character like 🍁 */*/
+  /*background-image: url('/assets/img/leaf.PNG'); /* Or use a Unicode character like 🍁 */
   background-size: contain;
   background-repeat: no-repeat;
   animation-name: fall;
@@ -350,6 +350,29 @@ img {
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
+}
+.mamuza__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mamuza__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moringa__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moringa__img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moringatext__container {
+  text-align: center;
 }
 .work__img {
   width: 300px;       
